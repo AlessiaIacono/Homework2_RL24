@@ -16,10 +16,8 @@ then source
 source install/setup.bash
 ```
 
-## use effort commands
-By default the node publishes joint position commands. To use the effort commands
-
-robot must be launched with the effort interface
+## Usee effort commands
+By default the node publishes joint position commands. To use the effort commands robot must be launched with the effort interface
 ```bash
 ros2 launch iiwa_bringup iiwa.launch.py command_interface:="effort" robot_controller:="effort_controller"
 ```
